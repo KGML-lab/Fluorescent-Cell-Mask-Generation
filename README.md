@@ -16,7 +16,7 @@
 1. Convert all *.tif* images to *.jpg* using batch process option in Imagej as python does not convert *.tif* to *.jpg* or *.png* with these images as some particular factor is misisng and we get plain white or plain black images
 2. Create a folder with two subdirs A and B and then create a test dir in both of them copy the *.jpg* images to both of the test dirs. 
 3. Ensure the name of the same image does not get changed and is maintained in the A and B folders
-3. Run rename_images.py to rename and add a  suffix "_A" and "_B" to them. Update the path to folder A and B in lines 58-59 of rename_images.py
+3. Run rename_images.py to rename and add a  suffix "_A" and "_B" to them. Update the path to folder A and B in lines 58-59 of rename_images.py. Look at the *phase_to_cell_fluoro* directory for an example. 
 4. Then run the following command  in the pix2pix codebase to create testing data
 
     ```
